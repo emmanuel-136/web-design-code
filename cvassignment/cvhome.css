@@ -1,0 +1,74 @@
+*{
+	margin:0;
+}
+
+.ppage
+{
+	border: 2px solid purple;
+	background-color:white;
+	font-size: 4em;
+	font-style:cambria;
+	height:8vh;
+	padding: 60px 10px 40px 150px;
+
+}
+
+li
+{
+	list-style-type: none;
+	color: purple;
+	font-size: 1em;
+
+	display:inline;
+	float:right;
+	padding: 5px 20px 5px 20px;
+	margin: 20px 5px 10px 5px;
+
+}
+
+li:hover
+{
+	background-color: lightblue
+	
+}
+
+
+.image1
+{	
+	margin: 20px 0px 0px 0px;
+	border: 2px solid black ;
+	height:45vh;
+	width:45%;
+
+
+}
+
+.image2
+{	
+	margin: 20px 0px 0px 0px;
+	border: 2px solid black ;
+	height:35vh;
+	width:45%;
+}
+
+.image3
+{	
+	margin: 20px 0px 0px 0px;
+	border: 2px solid black ;
+	height:83vh;
+	width:48%;
+	float:right;
+} 
+
+
+
+
+
+}
+
+
+
+
+
+
+

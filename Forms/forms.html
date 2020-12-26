@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMS</title>
+</head>
+<body>
+
+	<h2> FORMS</h2>
+
+
+	<!-- forms are used to input details into the site, composed of labels and inputs. the label tag is <label></label>...  this is used to label or nameve the form.
+
+	A form could have attributes. Some of them include: class="" , attribute="" , action="", enctype="" (this specifies how it should be encoded)
+	action determines what should happen when one clicks submit. it usually contains a link.
+	or it could also contain "mailto:name@gmail.com" this will allow us mail it to a paticular place.
+		
+		input + tab key will give you the input tab below.
+	input type text is to upload a text     <input type="text" name="">
+	input type file is to upload a file     <input type="file" name="">
+	input type no. is to upload a number     <input type="number" name="">
+	input type password is  for passwords     <input type="password" name="">
+	input type email is to upload email       <input type="email" name="">
+	input type checkbox is to select multiple options       <input type="checkbox" name=""> 
+	input type button enables us to get a push button with no default behaviour
+	input type checkbox enables us get a checkbox which allows single value to be selected 
+	input type colour enables us pick a color as a selection 
+	input type hidden will allow us put a value that is not visible but will be sent to the server 
+	input type image gives us a graphical submit button. you must specify source and alt text in order to use it.  
+	input type  
+	input type  
+
+	Input Restrictions
+Here is a list of some common input restrictions (some are new in HTML5):
+
+Attribute		Description
+disabled		Specifies that an input field should be disabled
+max	Specifies 	the maximum value for an input field
+maxlength		Specifies the maximum number of character for an input field
+min	Specifies 	the minimum value for an input field
+pattern			Specifies a regular expression to check the input value against
+readonly		Specifies that an input field is read only (cannot be changed)
+required		Specifies that an input field is required (must be filled out)
+size			Specifies the width (in characters) of an input field
+step			Specifies the legal number intervals for an input field
+value			Specifies the default value for an input field
+	
+	placeholder puts a text in the space. This space dissapears once the user begins to type in it. It comes in the input tag just after name=...   placeholder="". the name required in thw placeholder comes in the quotation marks.
+	required tag   required=""... allows us make an option compulsory or else the form wont be submitted. 
+
+	the break tag   <br> is used to break the line and go to a new line.
+ -->
+ 		
+ 		<form> 
+ 			<label> name </label>
+ 			<input type="text" name="" placeholder="type full name here" required=""> <br> <br>
+ 			
+ 			<label>password</label>
+ 			<input type="password" name="" placeholder="put your password here" required=""> <br> <br>
+ 			 
+ 			 <label> File</label>
+ 			 <label> Upload file </label>
+ 			 <input type="file" name="" placeholder="upload file here"> <br> <br> <br>
+ 			 
+ 			 <label> Phone number </label>
+ 			 <input type="tel" name="" placeholder="Put your phone number here" required=""> <br> <br> <br>
+ 			 
+ 			 <label> input your email address </label>
+ 			 <input type="email" name="" placeholder="put your email address here"> <br> <br>
+
+ 			 <label> check box </label>
+ 			 <label> maths </label>
+ 			 <input type="checkbox" name="">
+
+ 			 <label> enlish </label>
+ 			 <input type="checkbox" name="">
+
+ 			 <label> maths </label>
+ 			 <input type="checkbox" name="">
+
+			<label> maths </label>
+ 			<input type="checkbox" name=""> <br>
+
+ 			<!-- radio label allows you to select only one of some options -->
+ 			<label> gender </label> <br> 
+ 			<label> Male </label>
+ 			<input type="radio" name="gender">
+ 			<label> female </label>
+ 			<input type="radio" name="gender">
+
+ 			<!--dropdown label allows you to put a list of options for the user to select. it doesnt need any input. under the dropdown label, put the select tag <select></select>...   then inside the select tag, put the possible options inside an options tag <option></option>... -->
+ 				<label> Dropdown </label>
+ 				  <select>
+ 				  	<option> none </option>
+ 				  	<option> 2001 </option>
+ 				  	<option> 2002 </option>
+ 				  	<option> 2003 </option>
+ 				  	<option> 2004 </option>
+ 				  	<option> 2005 </option>
+ 				  </select>
+
+ 				  <!-- input type date allows the user to input date. it provides a calendar from wheere you can pick your date.
+ 				  	input type reset defines a reset button to remove all values in the form 
+ 				    -->
+ 				  <label> Date of birth </label> 
+ 				  <input type="date" name="" placeholder="input date of birth here"> <br>
+
+ 				   <label> Time </label>
+ 				  <input type="time" name="" >
+
+
+ 				  <label> Address </label>
+					 <textarea placeholder="type your adress here " required=""></textarea> 
+					 <!-- text area gives space for the user to type. -->
+
+ 				  <input type="reset" name="">
+ 				  <input type="submit" name="submit">
+
+ 				  <p> <a href="login.html"> <button> login </button> </a> </p>
+
+ 				   
+ 				  <!--
+ 				  assignment
+ 				   on the portfolio site, create a link that will take users to a registration page. 
+ 				  create a login page a s well
+
+ 				  check on more inputs.
+ 				  read on css selectors
+ 				  box models
+ 				  
+ 				  link teh  -->
+				<a href=""></a>
+
+
+
+ 		</form>
+</body>
+</html>
